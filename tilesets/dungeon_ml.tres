@@ -1,0 +1,11 @@
+[gd_resource type="MeshLibrary" load_steps=2 format=1]
+
+[sub_resource type="Mesh" id=1]
+
+custom_aabb/custom_aabb = AABB( 1, 0, 0, 0, 1, 0 )
+
+[resource]
+
+item/0/name = "Wall"
+item/0/mesh = SubResource( 1 )
+
